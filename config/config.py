@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "18871550"))
+API_HASH = getenv("API_HASH","d65d43db858a8c1088dabec0dfbd0491")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","5416582457:AAG_3d4u0XZakf_f-0z9Goukd9j-QiDw8Gs")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://Dilwar:<password>@cluster0.ugj3r.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001682834821"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "5350202392").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_CHANNEL", "https://t.me/MAHAKAL_OP_1")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/The_Friendship_Haveli_1")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -85,11 +85,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", BQBtJNnN5f2k7IKH4K2RWr9HFjgYdbcvgJr01kF8WX0nVR8b6ablBYNjEMxcErEjj2Cuaw-oqFHncvB92-xl6cHK16rLlu8le8GGf5iXLUxbMyQl-WAssGKz5PV84PkEpcqPltNPH9ypHXCg3uN0U-ODsrfhroaHjeFBNEzFa0T0wrgr9yE8iaTKogmE7iu-NLoLhdd8ga0fnHpdKutvR3drm9dIyIggCsGde8VJ6roJ27zJLBlkxTaEgEjWT64EEJJ_hfnzcth5ejyTyXc6aUTU4c-yIH-uwalhsEjNC6wY7fvabfQq4V9ycwSh_GIBhkCaSib2R7Wy-aME2G4M29AQAAAAAUMWqxMA)
+STRING2 = getenv("STRING_SESSION2", BQBtJNnN5f2k7IKH4K2RWr9HFjgYdbcvgJr01kF8WX0nVR8b6ablBYNjEMxcErEjj2Cuaw-oqFHncvB92-xl6cHK16rLlu8le8GGf5iXLUxbMyQl-WAssGKz5PV84PkEpcqPltNPH9ypHXCg3uN0U-ODsrfhroaHjeFBNEzFa0T0wrgr9yE8iaTKogmE7iu-NLoLhdd8ga0fnHpdKutvR3drm9dIyIggCsGde8VJ6roJ27zJLBlkxTaEgEjWT64EEJJ_hfnzcth5ejyTyXc6aUTU4c-yIH-uwalhsEjNC6wY7fvabfQq4V9ycwSh_GIBhkCaSib2R7Wy-aME2G4M29AQAAAAAUMWqxMA)
+STRING3 = getenv("STRING_SESSION3", BQBtJNnN5f2k7IKH4K2RWr9HFjgYdbcvgJr01kF8WX0nVR8b6ablBYNjEMxcErEjj2Cuaw-oqFHncvB92-xl6cHK16rLlu8le8GGf5iXLUxbMyQl-WAssGKz5PV84PkEpcqPltNPH9ypHXCg3uN0U-ODsrfhroaHjeFBNEzFa0T0wrgr9yE8iaTKogmE7iu-NLoLhdd8ga0fnHpdKutvR3drm9dIyIggCsGde8VJ6roJ27zJLBlkxTaEgEjWT64EEJJ_hfnzcth5ejyTyXc6aUTU4c-yIH-uwalhsEjNC6wY7fvabfQq4V9ycwSh_GIBhkCaSib2R7Wy-aME2G4M29AQAAAAAUMWqxMA)
+STRING4 = getenv("STRING_SESSION4", BQBtJNnN5f2k7IKH4K2RWr9HFjgYdbcvgJr01kF8WX0nVR8b6ablBYNjEMxcErEjj2Cuaw-oqFHncvB92-xl6cHK16rLlu8le8GGf5iXLUxbMyQl-WAssGKz5PV84PkEpcqPltNPH9ypHXCg3uN0U-ODsrfhroaHjeFBNEzFa0T0wrgr9yE8iaTKogmE7iu-NLoLhdd8ga0fnHpdKutvR3drm9dIyIggCsGde8VJ6roJ27zJLBlkxTaEgEjWT64EEJJ_hfnzcth5ejyTyXc6aUTU4c-yIH-uwalhsEjNC6wY7fvabfQq4V9ycwSh_GIBhkCaSib2R7Wy-aME2G4M29AQAAAAAUMWqxMA)
+STRING5 = getenv("STRING_SESSION5", BQBtJNnN5f2k7IKH4K2RWr9HFjgYdbcvgJr01kF8WX0nVR8b6ablBYNjEMxcErEjj2Cuaw-oqFHncvB92-xl6cHK16rLlu8le8GGf5iXLUxbMyQl-WAssGKz5PV84PkEpcqPltNPH9ypHXCg3uN0U-ODsrfhroaHjeFBNEzFa0T0wrgr9yE8iaTKogmE7iu-NLoLhdd8ga0fnHpdKutvR3drm9dIyIggCsGde8VJ6roJ27zJLBlkxTaEgEjWT64EEJJ_hfnzcth5ejyTyXc6aUTU4c-yIH-uwalhsEjNC6wY7fvabfQq4V9ycwSh_GIBhkCaSib2R7Wy-aME2G4M29AQAAAAAUMWqxMA)
 
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/f690021836689035f37ed.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "https://telegra.ph/file/f690021836689035f37ed.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
